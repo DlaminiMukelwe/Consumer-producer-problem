@@ -1,0 +1,4 @@
+python consumer_server.py --host 0.0.0.0 --port 5000 --output-dir xml_files --count 10
+
+
+python producer_client.py --host 127.0.0.1 --port 5000 --count 10
