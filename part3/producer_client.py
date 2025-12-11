@@ -41,9 +41,9 @@ def send_message(sock, filename, xml_str):
 def main(host, port, count):
     with socket.create_connection((host, port)) as sock:
         for i in range(1, count+1):
-            name = random.choice(["Alice", "Bob", "Charlie", "David", "Eve"])
+            name = random.choice(["Mukelwe", "Seluleko", "Neliswa", "Munashe", "Tema"])
             student_id = "".join([str(random.randint(0,9)) for _ in range(8)])
-            programme = random.choice(["Diploma IT", "BSc Computer Science", "Software Engineering"])
+            programme = random.choice(["Bsc Information Technology", "BSc Computer Science", "Software Engineering"])
             courses = {
                 "Programming": random.randint(0,100),
                 "Networking": random.randint(0,100),
